@@ -803,7 +803,7 @@ main.main div.content div.lasttext p{
   font-size: 20px;
   font-weight: bolder;
   line-height: 40px;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 @media (min-width: 768px) and (max-width: 991.9px){
   main.main div.content div.lasttext p{
