@@ -31,6 +31,9 @@ header.header div.title{
   position: relative;
   background-color:#d6ebff;
   /* background-color:white; */
+  position: fixed;
+  top:0;
+  z-index: 10;
 }
 @media (min-width:768px) and (max-width: 991.9px){
   header.header div.title{
@@ -170,6 +173,9 @@ div.hambugertitle{
   background-color:#d6ebff;
   /* background-color:white; */
   display: none;
+  position: fixed;
+  top:0;
+  z-index: 10;
 }
 
 @media (min-width:320px) and (max-width: 575.9px){
