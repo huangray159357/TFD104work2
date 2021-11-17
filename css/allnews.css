@@ -89,7 +89,10 @@ main.main div.allnews > div.news5 p.-on{
 main.main div.allnews > div a{
   text-decoration: none;
 }
-
+main.main div.more{
+  /* height: 102px;
+  width: 102px;; */
+}
 main.main div.more img{
   cursor: pointer;
   display: inline-block;

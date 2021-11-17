@@ -61,3 +61,12 @@
     width: 40%;
   }
 }
+@media (max-width: 768px){
+  main.main div.more{
+    height: 102px;
+  }
+  main.main div.more img{
+    height: 102px;
+    width: 102px;
+  }
+}
