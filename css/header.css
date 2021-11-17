@@ -1,0 +1,259 @@
+*{
+  box-sizing: border-box;
+  font-size: 0;
+}
+body{
+  /* border: 1px solid red; */
+  margin: 0;
+  background:#C0DEED ;
+  background-image: url("../image/background.png");
+  background-repeat: repeat-x;
+}
+/* header內 */
+header.header{
+  /* border:1px solid blue; */
+  text-align: center;
+}
+main.main{
+  /* border:1px solid green; */
+  /* height: 1000px; */
+  text-align: center;
+}
+
+header.header div.title{
+  /* border:1px solid red; */
+  height:100px;
+  width: 100%;
+  margin: auto;
+  /* margin-top: 50px; */
+  text-align: center;
+  padding-top: 10px;
+  position: relative;
+  background-color:#d6ebff;
+  /* background-color:white; */
+}
+@media (min-width:768px) and (max-width: 991.9px){
+  header.header div.title{
+    height: 90px;
+  }
+}
+@media (min-width:576px) and (max-width: 767.9px){
+  header.header div.title{
+    height: 90px;
+  }
+}
+@media (min-width:320px) and (max-width: 575.9px){
+  header.header div.title{
+    display: none;
+  }
+}
+
+
+
+
+
+/* LOGO CSS */
+div.titleLOGO{
+  /* border:1px solid purple; */
+  height: 100%;
+  width: 80px;
+  display: inline-block;
+  vertical-align: middle;
+}
+@media (min-width:576px) and (max-width: 767.9px){
+  div.titleLOGO{
+    width:60px;
+  }
+}
+div.titleLOGO a img{
+  max-width: 100%;
+  max-height: 100%;
+}
+/* 標題CSS */
+div.title nav.nav{
+  /* border: 1px solid blue; */
+  display: inline-block;
+}
+div.title nav.nav ul.link_list li a{
+  font-size: 20px;
+  color:black;
+  text-decoration: none;
+  font-weight: bolder;
+}
+div.title nav.nav ul.link_list li a:hover{
+  font-size: 20px;
+  color:#ffd800;
+  text-decoration: none;
+  font-weight: bolder;
+}
+@media (min-width:768px) and (max-width: 991.9px){
+  div.title nav.nav ul.link_list li a{
+    font-size: 18px;
+    font-weight: bolder;
+  }
+  div.title nav.nav ul.link_list li a:hover{
+    font-size: 18px;
+    font-weight: bolder;
+  }
+}
+@media (min-width:576px) and (max-width: 767.9px){
+  div.title nav.nav ul.link_list li a{
+    font-size: 14px;
+    font-weight: bolder;
+  }
+  div.title nav.nav ul.link_list li a:hover{
+    font-size: 14px;
+    font-weight: bolder;
+  }
+}
+
+
+
+
+div.title nav.nav ul.link_list li{
+  display: inline-block;
+  margin: 0 20px;
+  vertical-align: middle;
+}
+@media (min-width:768px) and (max-width: 991.9px){
+  div.title nav.nav ul.link_list li{
+    margin: 0 12px;
+  }
+}
+@media (min-width:576px) and (max-width: 767.9px){
+  div.title nav.nav ul.link_list li{
+    margin: 0 12px;
+  }
+}
+div.title nav.nav ul.link_list{
+  padding:0;
+  text-align: center;
+}
+/* 標題旁邊圖片 */
+div.titlepic{
+  /* border: 1px solid green; */
+  display: inline-block;
+  max-height: 100%;
+  max-width: 90px;
+  vertical-align: middle;
+  position: relative;
+  /* left:30px; */
+  z-index: 5;
+  cursor: context-menu;
+}
+@media (min-width:576px) and (max-width: 767.9px){
+  div.titlepic{
+    width: 70px;
+  }
+}
+
+div.titlepic a img{
+  max-height: 100%;
+  max-width:100%;
+  cursor: context-menu;
+}
+
+
+
+
+
+/*hambuger*/
+div.hambugertitle{
+  /* border:1px solid red; */
+  height:60px;
+  width: 100%;
+  margin: auto;
+  /* margin-top: 50px; */
+  text-align: left;
+  padding-top: 10px;
+  position: relative;
+  background-color:#d6ebff;
+  /* background-color:white; */
+  display: none;
+}
+
+@media (min-width:320px) and (max-width: 575.9px){
+  div.hambugertitle{
+    display: block;
+    height: 60px;
+  }
+}
+
+div.hambugertitle > div {
+  /* border:1px solid purple; */
+  width: 50px;
+  height: 90%;
+  margin-left: 2%;
+  display: inline-block;
+  vertical-align: top;
+}
+div.hambugertitle > div > div.lineblock{
+  /* border: 1px solid red; */
+  height: 100%;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+}
+div.hambugertitle > div > div.lineblock img{
+  width: 110%;
+  height:110%;
+}
+
+
+
+
+
+
+div.hambuger{
+  width:100%;
+  border: 5px solid lightgrey;
+  border-radius: 10px;
+  height: 350px;
+  position: absolute;
+  top:0;
+  left:0;
+  transform: translate(-100%);
+  background-color:#5ab0db;
+  z-index: 10;
+  display: block;
+  opacity: .85;
+  transition: all 1s;
+}
+div.hambuger.-on{
+  transform: translate(0%);
+  transition: all 1s;
+}
+div.hambuger > div.lineblock{
+  height: 60px;
+  width: 30%;
+  /* border: 1px solid red; */
+  cursor: pointer;
+}
+
+div.hambuger > div.ha_title{
+  /* border: 1px solid red; */
+  height: 100%;
+  width:100%;
+}
+div.hambuger > div.ha_title nav.ha_nav{
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 80%;
+}
+div.hambuger > div.ha_title nav.ha_nav ul.ha_link_list{
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 80%;
+  padding: 0;
+}
+div.hambuger > div.ha_title nav.ha_nav ul.ha_link_list li{
+  list-style: none;
+  margin-bottom: 15px;
+}
+div.hambuger > div.ha_title nav.ha_nav ul.ha_link_list li a{
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}

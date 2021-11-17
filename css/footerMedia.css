@@ -1,0 +1,80 @@
+@media (min-width: 1400px){
+
+}
+@media (min-width: 1200px) and (max-width: 1399.9px){
+  footer div.icon{
+    height: 60px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.9px){
+  footer div.icon{
+    height: 60px;
+  }
+  footer div.last a p{
+    font-size: 20px;
+  }
+  footer div.tibame p,div.tibame p a{
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px){
+  footer div.icon{
+    height: 50px;
+  }
+  footer div.icon img.fb{
+    margin: 0 40px;
+  }
+  footer div.icon img.twitter{
+    margin: 0 40px;
+  }
+  footer div.icon img.ig{
+    margin: 0 40px;
+  }
+  footer div.last a p{
+    font-size: 18px;
+  }
+  footer div.tibame p,div.tibame p a{
+    font-size: 12px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px){
+  footer div.icon{
+    height: 40px;
+  }
+  footer div.icon img.fb{
+    margin: 0 30px;
+  }
+  footer div.icon img.twitter{
+    margin: 0 30px;
+  }
+  footer div.icon img.ig{
+    margin: 0 30px;
+  }
+  footer div.last a p{
+    font-size: 18px;
+  }
+  footer div.tibame p,div.tibame p a{
+    font-size: 12px;
+  }
+}
+@media (min-width: 320px) and (max-width: 575.9px){
+  footer div.icon{
+    height: 30px;
+    width: 100%;
+  }
+  footer div.icon img.fb{
+    margin: 0 20px;
+  }
+  footer div.icon img.twitter{
+    margin: 0 20px;
+  }
+  footer div.icon img.ig{
+    margin: 0 20px;
+  }
+  footer div.last a p{
+    font-size: 15px;
+  }
+  footer div.tibame p,div.tibame p a{
+    font-size: 10px;
+  }
+}

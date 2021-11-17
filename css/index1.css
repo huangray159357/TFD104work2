@@ -1,0 +1,245 @@
+*{
+  box-sizing: border-box;
+  font-size: 0;
+}
+body{
+  /* border: 1px solid red; */
+  margin: 0;
+  background:#C0DEED ;
+  background-image: url("../image/background.png");
+  background-repeat: repeat-x;
+}
+/* header內 */
+header.header{
+  /* border:1px solid blue; */
+  text-align: center;
+}
+main.main{
+  /* border:1px solid green; */
+  text-align: center;
+}
+
+header.header div.title{
+  /* border:1px solid red; */
+  height:100px;
+  width: 1000px;
+  /* margin: auto; */
+  text-align: center;
+  padding-top: 10px;
+  position: relative;
+  background-color:#d6ebff;
+  /* background-color:white; */
+}
+/* LOGO CSS */
+div.titleLOGO{
+  /* border:1px solid purple; */
+  height: 100%;
+  width: 80px;
+  display: inline-block;
+  vertical-align: middle;
+}
+div.titleLOGO a img{
+  max-width: 100%;
+  max-height: 100%;
+}
+/*line*/
+header.header div.line{
+  border: 1px dashed black;
+  width: 1200px;
+  display: inline-block;
+}
+
+
+/* 標題CSS */
+div.title nav.nav{
+  /* border: 1px solid blue; */
+  display: inline-block;
+}
+div.title nav.nav ul.link_list li a{
+  font-size: 20px;
+  color:black;
+  text-decoration: none;
+
+}
+div.title nav.nav ul.link_list li{
+  display: inline-block;
+  margin: 0 20px;
+  vertical-align: middle;
+}
+div.title nav.nav ul.link_list{
+  padding:0;
+  text-align: center;
+}
+/* 標題旁邊圖片 */
+div.titlepic{
+  /* border: 1px solid green; */
+  display: inline-block;
+  max-height: 100%;
+  max-width: 100px;
+  vertical-align: middle;
+  position: relative;
+  left:100px;
+
+}
+div.titlepic a img{
+  max-height: 100%;
+  max-width:100%;
+}
+
+
+/* main標籤內 */
+/* 首頁輪播圖 */
+main div.mainpic{
+  /* border: 1px solid red; */
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+main div.mainpic img{
+  max-height: 100%;
+  position: relative;
+  z-index: -1;
+}
+main div.mainpic div.mainpicdot1{
+  /* border: 1px solid red; */
+  width: 20px;
+  height: 20px;
+  border-radius: 90%;
+  background-color: #4F4F4F;
+  position: absolute;
+  bottom: 0%;
+  left:48%;
+}
+main div.mainpic div.mainpicdot2{
+  /* border: 1px solid red; */
+  width: 20px;
+  height: 20px;
+  border-radius: 90%;
+  background-color: #4F4F4F;
+  position: absolute;
+  bottom: 0%;
+  left:50%;
+  opacity: 0.5;
+}
+main div.mainpic div.mainpicdot3{
+  /* border: 1px solid red; */
+  width: 20px;
+  height: 20px;
+  border-radius: 90%;
+  background-color: #4F4F4F;
+  position: absolute;
+  bottom: 0%;
+  left:52%;
+  opacity: 0.5;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+/* 首頁內容 */
+main.main div.content{
+  border:1px solid red;
+  width:1200px;
+  display: inline-block;
+}
+
+main.main div.popular{
+  border: 1px solid purple;
+  margin-top: 50px;
+}
+main.main div.popular div.populartitle{
+  font-size: 30px;
+  font-weight: bolder;
+}
+main.main div.popular div img.hot{
+  /* border: 1px solid blue; */
+  width: 10%;
+  position: absolute;
+  top:0;
+}
+main.main div.popular div.popularpro1{
+  /* border: 1px solid green; */
+  position: relative;
+  top:50px;
+}
+main.main div.popular div.popularpro1 div.pic1{
+  /* border: 1px solid orange; */
+  width: 20%;
+  height:100%;
+  display: inline-block;
+  position: relative;
+  opacity: .5;
+  cursor: pointer;
+  margin-right: 50px;
+}
+main.main div.popular div.popularpro1 div.text1{
+  border: 1px solid black;
+  width: 40%;
+  height:100%;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bolder;
+}
+main.main div.popular div.popularpro1 div.text1 p{
+  font-size: 25px;
+  color: #F37E22;
+  font-weight:bolder;
+}
+
+main.main div.popular div.popularpro2{
+  /* border: 1px solid green; */
+}
+main.main div.popular div.popularpro2 div.pic2{
+  /* border: 1px solid orange; */
+  width: 20%;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  margin-right: 50px;
+}
+main.main div.popular div.popularpro2 div.text2{
+  border: 1px solid black;
+  width: 40%;
+  height:100%;
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: top;
+  font-weight: bolder;
+}
+main.main div.popular div.popularpro2 div.text2 p{
+  font-size: 25px;
+  color: #F37E22;
+  font-weight:bolder;
+}
+
+main.main div.popular div.popularpro3{
+  /* border: 1px solid green; */
+  position: relative;
+  bottom:50px;
+}
+main.main div.popular div.popularpro3 div.pic3{
+  /* border: 1px solid orange; */
+  width: 20%;
+  height:100%;
+  display: inline-block;
+  position: relative;
+  opacity: .5;
+  cursor: pointer;
+  margin-right: 50px;
+}
+main.main div.popular div.popularpro3 div.text3{
+  border: 1px solid black;
+  width: 40%;
+  height:100%;
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: top;
+  font-weight: bolder;
+}
+main.main div.popular div.popularpro3 div.text3 p{
+  font-size: 25px;
+  color: #F37E22;
+  font-weight:bolder;
+}

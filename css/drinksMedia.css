@@ -1,0 +1,287 @@
+@media (min-width: 1400px){
+  main div.content{
+    width: 1250px;
+  }
+ main div.alloption{
+   width: 250px;
+   position: relative;
+   right: 10px;
+ }
+   main div div.product1 ul li{
+    width: 25%;
+  }
+   main div div.product2 ul li{
+    width: 25%;
+  }
+   main div div.product3 ul li{
+    width: 25%;
+  }
+   main div div.product4 ul li{
+    width: 25%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.9px){
+  main div.content{
+    width: 1150px;
+  }
+  main div div.product1 ul li{
+   width: 25%;
+ }
+  main div div.product2 ul li{
+   width: 25%;
+ }
+  main div div.product3 ul li{
+   width: 25%;
+ }
+  main div div.product4 ul li{
+   width: 25%;
+ }
+
+
+ main div.productname1 span{
+   font-size: 30px;
+  }
+ main div.productname2 span{
+    font-size: 30px;
+  }
+  main div.productname3 span{
+     font-size: 30px;
+  }
+  main div.productname4 span{
+     font-size: 30px;
+   }
+
+  main div nav.option ul li a{
+    font-size: 28px;
+  }
+  main div.alloption a.alldrink{
+    font-size: 31px;
+  }
+
+}
+@media (min-width: 992px) and (max-width: 1199.9px){
+  main div div.product1 ul li{
+    width: 25%;
+    margin-left:40px;
+  }
+  main div div.product2 ul li{
+    width: 25%;
+    margin-left:40px;
+  }
+  main div div.product3 ul li{
+    width: 25%;
+    margin-left:40px;
+  }
+  main div div.product4 ul li{
+    width: 25%;
+    margin-left:40px;
+  }
+
+
+  main div.productname1 span{
+    font-size: 28px;
+  }
+  main div.productname2 span{
+    font-size: 28px;
+  }
+  main div.productname3 span{
+    font-size: 28px;
+  }
+  main div.productname4 span{
+    font-size: 28px;
+  }
+
+
+
+
+  main div div.product1 ul li span{
+    font-size: 18px;
+  }
+  main div div.product2 ul li span{
+    font-size: 18px;
+  }
+  main div div.product3 ul li span{
+    font-size: 18px;
+  }
+  main div div.product4 ul li span{
+    font-size: 18px;
+  }
+
+
+  main div nav.option ul li a{
+    font-size: 25px;
+  }
+  main div.alloption a.alldrink{
+    font-size: 28px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px){
+  main div div.product1 ul li{
+    width: 40%;
+    margin-left:20px;
+  }
+  main div div.product2 ul li{
+    width: 40%;
+    margin-left:20px;
+  }
+  main div div.product3 ul li{
+    width: 40%;
+    margin-left:20px;
+  }
+  main div div.product4 ul li{
+    width: 40%;
+    margin-left:20px;
+  }
+
+
+
+  main div.productname1 span{
+    font-size: 28px;
+  }
+  main div.productname2 span{
+    font-size: 28px;
+  }
+  main div.productname3 span{
+    font-size: 28px;
+  }
+  main div.productname4 span{
+    font-size: 28px;
+  }
+
+
+
+
+  main div div.product1 ul li span{
+    font-size: 20px;
+  }
+  main div div.product2 ul li span{
+    font-size: 20px;
+  }
+  main div div.product3 ul li span{
+    font-size: 20px;
+  }
+  main div div.product4 ul li span{
+    font-size: 20px;
+  }
+
+
+  main div nav.option ul li a{
+    font-size: 22px;
+  }
+  main div.alloption a.alldrink{
+    font-size: 25px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px){
+  main div div.product1 ul li{
+    width: 40%;
+    margin-left:15px;
+  }
+  main div div.product2 ul li{
+    width: 40%;
+    margin-left:15px;
+  }
+  main div div.product3 ul li{
+    width: 40%;
+    margin-left:15px;
+  }
+  main div div.product4 ul li{
+    width: 40%;
+    margin-left:15px;
+  }
+
+
+
+  main div.productname1 span{
+     font-size: 25px;
+   }
+   main div.productname2 span{
+     font-size: 25px;
+   }
+   main div.productname3 span{
+     font-size: 25px;
+   }
+   main div.productname4 span{
+     font-size: 25px;
+   }
+
+
+
+
+   main div div.product1 ul li span{
+     font-size: 16px;
+   }
+   main div div.product2 ul li span{
+     font-size: 16px;
+   }
+   main div div.product3 ul li span{
+     font-size: 16px;
+   }
+   main div div.product4 ul li span{
+     font-size: 16px;
+   }
+
+
+  main div nav.option ul li a{
+    font-size: 20px;
+  }
+  main div.alloption a.alldrink{
+    font-size: 22px;
+  }
+}
+@media (max-width: 575.9px){
+  main div div.product1 ul li{
+    width: 40%;
+    margin-left:10px;
+  }
+  main div div.product2 ul li{
+    width: 40%;
+    margin-left:10px;
+  }
+  main div div.product3 ul li{
+    width: 40%;
+    margin-left:10px;
+  }
+  main div div.product4 ul li{
+    width: 40%;
+    margin-left:10px;
+  }
+
+
+  main div.productname1 span{
+     font-size: 22px;
+   }
+   main div.productname2 span{
+     font-size: 22px;
+   }
+   main div.productname3 span{
+     font-size: 22px;
+   }
+   main div.productname4 span{
+     font-size: 22px;
+   }
+
+
+
+
+   main div div.product1 ul li span{
+     font-size: 12px;
+   }
+   main div div.product2 ul li span{
+     font-size: 12px;
+   }
+   main div div.product3 ul li span{
+     font-size: 12px;
+   }
+   main div div.product4 ul li span{
+     font-size: 12px;
+   }
+
+   main div nav.option ul li a{
+     font-size: 16px;
+   }
+   main div.alloption a.alldrink{
+     font-size: 18px;
+   }
+}

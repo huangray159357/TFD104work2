@@ -1,0 +1,27 @@
+@media (min-width: 576px) and (max-width: 767.9px){
+  main.main div.pro2 div.pro2pic{
+    display: none;
+  }
+  main.main div.pro2 div.pro2pic.-phone{
+    display: block;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575.9px){
+div.content{
+  width:100% !important;
+}
+div.popular{
+  width:100%;
+}
+ div.popular div.popularpro1{
+   /* border: 1px solid red; */
+   width:100%;
+ }
+ main.main div.pro2 div.pro2pic{
+   display: none;
+ }
+ main.main div.pro2 div.pro2pic.-phone{
+   display: block;
+ }
+}

@@ -1,0 +1,165 @@
+@import "./header.css";
+header div.title nav ul.link_list li a.drinks{
+  color: #ffd800;
+}
+
+main.main{
+  /* border: 1px solid red; */
+  text-align: center;
+}
+main div.content{
+  /* border: 1px solid orange; */
+  /* width: 1200px; */
+  display: inline-block;
+  margin-top: 80px;
+}
+main div.contentpic{
+  /* border: 5px solid black; */
+  display: inline-block;
+  position: relative;
+  margin-right: 100px;
+
+}
+
+main div.arrowleft{
+  /* border: 1px solid blue; */
+  display: inline-block;
+  position: absolute;
+  top:50%;
+  left:0;
+  /* width: 50px; */
+  /* height: 50px; */
+  cursor: pointer;
+  transform: translate(-100%,-50%);
+}
+
+main div.arrowright{
+  /* border: 1px solid green; */
+  display: inline-block;
+  position: absolute;
+  top:50%;
+  right: 0;
+  /* width: 50px;
+  height: 50px; */
+  cursor: pointer;
+  transform: translate(100%,-50%);
+}
+main.main div.picall{
+  /* border: 1px solid blue; */
+  display: block;
+
+  /* overflow: hidden; */
+}
+main div.drinkpic{
+  /* border: 1px solid red; */
+  display: block;
+  width: 500px;
+}
+main div.drinkpic.-on{
+  position:relative;
+
+}
+
+
+main div.drinkpic img{
+  width: 100%;
+}
+
+
+
+main div.contenttext{
+  /* border: 1px solid yellow; */
+  width: 450px;
+  padding-top: 50px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 100px;
+}
+
+main div.contenttext div.texttitle{
+  /* border: 1px solid red; */
+  font-size: 25px;
+  background-color: #2d71b5;
+  color: white;
+  font-weight: bolder;
+  border-radius: 20px;
+}
+main div.contenttext div.text{
+  /* border: 1px solid red; */
+  margin-top: 40px;
+
+}
+main div.contenttext div.text p{
+  /* border: 1px solid red; */
+  font-size: 20px;
+  margin-top: 50px;
+  font-weight: bolder;
+  line-height: 35px;
+}
+
+/*按鈕與表格*/
+main div.notice{
+  /* border:1px solid blue; */
+  margin-top: 50px;
+  /* height: 200px; */
+}
+
+
+main div button.btn1{
+  font-size: 20px;
+  width:100%;
+}
+
+main div.collapse div.card{
+  /* border: 1px solid red; */
+  padding: 0 5px;
+  display: none;
+
+}
+main div.collapse div.card ul{
+  padding: 0;
+}
+main div.collapse div.card ul > li{
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: left;
+  margin-bottom: 15px;
+  /* border: 1px solid green; */
+  /* background-color: #f9f9f9; */
+  /* color: blue; */
+  list-style: none;
+}
+main div.notice2{
+  margin-top:10px;
+}
+main div button.btn2{
+  font-size: 20px;
+  width:100%;
+  /* margin-bottom: 100px; */
+}
+main div.Kcal{
+  /* border: 1px solid red; */
+  text-align: center;
+  display: none;
+  margin-bottom: 100px;
+}
+main div.Kcal table{
+  /* border: 1px solid green; */
+  margin: 0;
+  font-size: 0;
+  display: inline-block;
+  border-spacing: 5px 10px;
+}
+
+main div.Kcal table tr th{
+  /* border: 1px solid blue; */
+  font-size: 18px;
+  text-align: center;
+}
+main div.Kcal table tr:first-child th{
+  font-size: 20px;
+  /* border: 1px solid red; */
+}
+main div.Kcal table tr.fat th, main div.Kcal table tr.sugar th{
+  font-size: 15px;
+}

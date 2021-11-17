@@ -1,0 +1,183 @@
+@media (min-width: 1400px){
+
+}
+@media (min-width: 1200px) and (max-width: 1399.9px){
+  main.main div.content{
+    width: 1000px;;
+  }
+
+}
+@media (min-width: 992px) and (max-width: 1199.9px){
+  main.main div.content{
+    width: 850px;;
+  }
+  main.main div.content div.part1{
+    position: relative;
+    right:50px;
+  }
+  main.main div.content div.part2{
+    position: relative;
+    left:50px;
+  }
+  main.main div.milk{
+    position:absolute;
+    right: -300px;;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px){
+  main.main div.content{
+    width: 700px;;
+  }
+  main.main div.content div.part1{
+    position: relative;
+    right:10px;
+  }
+  main.main div.content div.part2{
+    position: relative;
+    left:10px;
+  }
+  main.main div.milk{
+    /* border: 1px solid blue; */
+    width: 400px;
+    position:absolute;
+    right: -300px;;
+    opacity: .5;
+  }
+
+}
+@media (min-width: 576px) and (max-width: 767.9px){
+  main.main div.content{
+    width: 80%;
+    height: 100%;
+  }
+  main.main div.content div.part1{
+    margin: 0 auto;
+    position: static;
+  }
+  main.main div.content div.part1 div{
+    display: block;
+    margin: 0 auto;
+  }
+  main.main div.content div.part1 div.shake{
+    display: none
+  }
+  main.main div.content div.shaketext{
+    width: 90%;
+    text-align: left;
+    z-index: 5
+  }
+  main.main div.milk{
+    /* border: 1px solid blue; */
+    width: 400px;
+    position:absolute;
+    right: -300px;;
+    opacity: .5;
+  }
+
+
+  main.main div.content div.part2{
+    margin: 0 auto;
+    position: static;
+    margin-top:200px;
+  }
+  main.main div.content div.part2 div{
+    display: block;
+    margin: 0 auto;
+  }
+  main.main div.content div.part2 div.look{
+    display: none;
+  }
+  main.main div.content div.looktext{
+
+    width: 90%;
+    text-align: left;
+    z-index: 5
+  }
+  main.main div.content div.part3 div.history ul.history li{
+    width: 70px;
+    height: 70px;
+  }
+  main.main div.content div.part3 div.history ul.history li a{
+    font-size: 20px;
+    /* border: 1px solid red; */
+    position:absolute;
+    top:50%;
+    transform: translate(-50%,-50%);
+  }
+}
+@media (min-width: 320px) and (max-width: 575.9px){
+  main.main div.content{
+    width: 80%;
+    height: 100%;
+  }
+  main.main div.content div.part1{
+    margin: 0 auto;
+    position: static;
+  }
+  main.main div.content div.part1 div{
+    display: block;
+    margin: 0 auto;
+  }
+  main.main div.content div.part1 div.shake{
+    display: none
+  }
+  main.main div.content div.shaketext{
+    width: 90%;
+    text-align: left;
+    z-index: 5
+  }
+  main.main div.content div.shaketext p{
+    font-size: 16px;
+  }
+  main.main div.content div.story {
+    margin-top: 50px;
+  }
+  main.main div.milk{
+    /* border: 1px solid blue; */
+    width: 300px;
+    position:absolute;
+    right: -220px;;
+    bottom:100px;
+    opacity: .5;
+  }
+
+  main.main div.content div.part2{
+    margin: 0 auto;
+    position: static;
+    margin-top: 50px;
+  }
+  main.main div.content div.part2 div{
+    display: block;
+    margin: 0 auto;
+  }
+  main.main div.content div.part2 div.look{
+    display: none;
+  }
+  main.main div.content div.looktext{
+    width: 90%;
+    text-align: left;
+    z-index: 5
+  }
+  main.main div.content div.looktext p{
+    font-size: 16px;
+  }
+  main.main div.content div.story p{
+    font-size: 16px;
+  }
+  main.main div.content div.part3 div.history ul.history li a{
+    font-size: 16px;
+    /* border: 1px solid red; */
+    position:absolute;
+    top:50%;
+    transform: translate(-50%,-50%);
+  }
+  main.main div.content div.part3 div.history div.historytext div.text.-on{
+    font-size: 16px;
+  }
+
+
+  main.main div.content div.part3 div.history ul.history li{
+    width: 50px;
+    height: 50px;
+  }
+}

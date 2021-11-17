@@ -1,0 +1,133 @@
+header div.title nav ul.link_list li a.location{
+  color: #ffd800;
+}
+div.hambuger > div.ha_title nav.ha_nav ul.ha_link_list li a.location{
+  color: #ffd800;
+}
+main.main{
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  /* width: 1200px; */
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+/*輪播圖*/
+main div.owl-carousel{
+  margin-top: 50px;
+}
+main div.owl-carousel.mainpic{
+  /* border: 1px solid red; */
+  display: block;
+  position: relative;
+  text-align: center;
+}
+main div.owl-carousel.mainpic div.pic1{
+  /* border:1px solid blue; */
+  width: 800px;
+  margin: 0 auto;
+  z-index: 0
+}
+main div.owl-carousel.mainpic div.pic2{
+  /* border:1px solid blue; */
+  width: 800px;
+  margin: 0 auto;
+  z-index: 0
+}
+main div.owl-carousel.mainpic div.pic3{
+  /* border:1px solid blue; */
+  width: 800px;
+  margin: 0 auto;
+  z-index: 0
+}
+
+
+
+
+/*content*/
+main.main div.locate{
+  /* border: 1px solid green; */
+  margin-top: 100px;
+}
+main.main div.locate div{
+  /* border: 1px solid red; */
+  display: inline-block;
+  vertical-align: top;
+}
+main.main div.locate div.locatetextall{
+  /* border: 1px solid blue; */
+  width: 60%;
+}
+main.main div.locate div div.locatetext{
+  width: 20%;
+}
+main.main div.locate div p{
+  font-size: 25px;
+  writing-mode: vertical-lr;
+  position: relative;
+  font-weight: bolder;
+  margin: 0 auto;
+}
+main.main div.locate div p::before{
+  position: absolute;
+  top:-30px;
+  left:12.5px;
+  content: "";
+  width:15px;
+  height: 15px;
+  background-color: #DA5353;
+}
+main.main div.locate div p{
+  cursor: pointer;
+}
+main.main div.locate div:first-child{
+  cursor: auto;
+}
+main.main div.locate  div div.locatetext p.-on{
+  color: red;
+}
+
+main.main div.locatenorthinformation{
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+main.main div.locatenorthinformation div.locate_in{
+  /* border: 1px solid blue; */
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+main.main div.locatenorthinformation div.locate_in.-on{
+  display: block;
+}
+main.main div.locatenorthinformation div.locate_in div.north1{
+  /* border: 1px solid green; */
+  margin-bottom: 50px;
+  width: 100%;
+}
+main.main div.locatenorthinformation div.locate_in div.north1 div.north1pic{
+  width: 40%;
+}
+main.main div.locatenorthinformation div.locate_in div.north1 div.text{
+  width: 40%
+}
+
+main.main div.locatenorthinformation div.locate_in div div{
+  /* border: 1px solid black; */
+  display: inline-block;
+  vertical-align: top;
+}
+main.main div.locatenorthinformation div.locate_in div div.text{
+ margin-left: 40px;
+}
+main.main div.locatenorthinformation div.locate_in div div.text p:first-child{
+  color:#de8b10;
+  font-size: 22px;
+}
+main.main div.locatenorthinformation div.locate_in div div.text p{
+  font-size: 20px;
+  font-weight: bolder;
+}

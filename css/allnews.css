@@ -1,0 +1,96 @@
+header div.title nav ul.link_list li a.allnews{
+  color: #ffd800;
+}
+div.hambuger > div.ha_title nav.ha_nav ul.ha_link_list li a.allnews{
+  color: #ffd800;
+}
+
+
+main.main{
+  /* border: 1px solid red; */
+  /* width: 1200px; */
+  margin: 0 auto;
+  text-align: center;
+}
+main.main div.moonnews{
+  margin: 0 auto;
+}
+main.main div.allnews{
+  /* border: 1px solid blue; */
+  text-align: center;
+  margin: 0 auto;
+  height: 600px;;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 320px 320px 320px;
+  margin-bottom: 50px;
+}
+main.main div.allnews > div{
+  border: 3px groove #b7c0c7;
+  border-style: outset;
+  background-color: white;
+  cursor: pointer;
+}
+main.main div.allnews > div p{
+  font-size: 20px;
+  color:black;
+}
+main.main div.allnews > div p.time{
+  font-size: 15px;
+}
+main.main div.allnews.-no{
+  display: none;
+}
+
+main.main div.moonnews{
+  /* border: 1px solid blue; */
+  display: none
+}
+main.main div.moonnews.-on{
+  display: block;
+}
+
+
+
+
+main.main div.moon{
+  /* border: 1px solid red; */
+  display: block;
+  padding-top: 50px;
+  cursor: auto;
+  margin-top: 30px;
+}
+main.main div.moon > div {
+  /* border: 1px solid red; */
+  display: inline-block;
+  cursor: pointer;
+}
+main.main div.moon > div img{
+  max-width: 60%;
+}
+main.main div.moon p{
+  /* border: 1px solid red; */
+  display: inline-block;
+  font-size: 25px;
+  position: relative;
+  bottom: 5px;
+  font-weight: bolder;
+}
+
+
+main.main div.allnews > div.news5:hover {
+  background-image: url("../image/newspic1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+main.main div.allnews > div.news5 p.-on{
+  color: white;
+}
+main.main div.allnews > div a{
+  text-decoration: none;
+}
+
+main.main div.more img{
+  cursor: pointer;
+  display: inline-block;
+}

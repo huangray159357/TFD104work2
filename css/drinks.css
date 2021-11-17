@@ -1,0 +1,389 @@
+@import "./header.css";
+header div.title nav ul.link_list li a.drinks{
+  color: #ffd800;
+}
+div.hambuger > div.ha_title nav.ha_nav ul.ha_link_list li a.drinks{
+  color: #ffd800;
+}
+@media (min-width:576px) and (max-width: 767.9px){
+  header div.title nav ul.link_list li a.drinks{
+    font-size: 16px;
+    color: #ffd800;
+  }
+}
+
+
+
+header.header{
+  display: block;
+}
+main.main{
+  text-align: center;
+}
+main div.content{
+  margin-top: 50px;
+  /* border:1px solid blue; */
+  width: 90%;
+
+  /* display: inline-block; */
+  margin: 0 auto;
+  text-align: right;
+  /* overflow-y: scroll; */
+}
+main div.options{
+  /* border:1px solid black; */
+  width:20%;
+  display: inline-block;
+  vertical-align: top;
+  position: sticky;
+  top:200px;
+}
+main div.alloption{
+  display: inline-block;
+  /* border: 1px solid blue; */
+  width: 110%;
+  text-align: center;
+  border-radius: 10px;;
+  background-color: #8ae69b;
+}
+main div.alloption a.alldrink{
+  text-decoration: none;
+}
+main div.alloption a.alldrink{
+  font-size: 35px;
+  color: white;
+}
+main div.alloption a.-on{
+  color: #1456D5;
+}
+main div.alloption a:hover{
+  font-size: 40px;
+  text-decoration: none;
+}
+
+
+
+/*第一個標題*/
+main div.productname1{
+  /* border:1px solid red; */
+  width:100%;
+  margin: 20px 0;
+  text-align: center;
+  padding: 20px 0 20px 20px;
+  display: none;
+  position: relative;
+}
+main div.productname1.-on{
+ display: inline-block;
+}
+main div.productname1 span{
+  font-size: 35px;
+  font-weight: bolder;
+  color: #e09948;
+}
+/*第二個標題*/
+main div.productname2{
+  /* border:1px solid red; */
+  width: 100%;
+  margin: 20px 0;
+  text-align: center;
+  padding: 20px 0 20px 20px;
+  display: none;
+  position: relative;
+}
+main div.productname2.-on{
+ display: inline-block;
+}
+
+main div.productname2 span{
+  font-size: 35px;
+  font-weight: bolder;
+  color: #e09948;
+}
+/*第三個標題*/
+main div.productname3{
+  /* border:1px solid red; */
+  width:100%;
+  margin: 20px 0;
+  text-align: center;
+  padding: 20px 0 20px 20px;
+  display: none;
+  position: relative;
+}
+main div.productname3.-on{
+ display: inline-block;
+}
+main div.productname3.-ononly{
+  margin: 20px 30px 20px 130px;
+  display: inline-block;
+}
+main div.productname3 span{
+  font-size: 35px;
+  font-weight: bolder;
+  color: #e09948;
+}
+/*第四個標題*/
+main div.productname4{
+  /* border:1px solid red; */
+  width:100%;
+  margin: 20px 0;
+  text-align: center;
+  padding: 20px 0 20px 20px;
+  display: none;
+  position: relative;
+}
+main div.productname4.-on{
+ display: inline-block;
+}
+main div.productname4.-ononly{
+  margin: 20px 30px 20px 130px;
+  display: inline-block;
+}
+main div.productname4 span{
+  font-size: 35px;
+  font-weight: bolder;
+  color: #e09948;
+}
+
+main div nav.option{
+  /* border:1px solid black; */
+  /* height: 100%; */
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+
+main div nav.option ul{
+  padding: 0;
+  margin-top: 10px;
+  display: inline-block;
+}
+main div nav.option ul li{
+  margin: 20px 0;
+  margin-bottom: 30px;
+  /* border: 1px solid red; */
+  width: 110%;
+  border-radius: 10px;
+  padding: 10px 0;
+  background-color: #8ae69b;
+
+}
+main div nav.option ul li a{
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+main div nav.option ul li:nth-child(n):hover{
+  color: #1456D5;
+}
+main div nav.option ul li a.-on{
+  color: #1456D5;
+}
+/*飲料部分*/
+/*第一種*/
+main div div.product1{
+  /* border: 1px solid blue; */
+  width: 80%;
+  display: none;
+  /* margin-left: 80px; */
+  /* display: none; */
+  vertical-align: top;
+  text-align: center;
+}
+main div div.product1.-on{
+  display: inline-block;
+}
+
+
+main div div.product1 ul {
+  /* border: 1px solid red; */
+  max-width: 100%;
+  padding: 0;
+}
+main div div.product1 ul li{
+  /* border: 5px ridge #bbf2d9; */
+  /* width: 200px; */
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+  display: inline-block;
+  text-align: center;
+  /* background-color: #7dc0f5; */
+}
+main div div.product1 ul li a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #4f7d25;
+  font-weight: bolder;
+}
+main div div.product1 ul li span{
+  font-size: 20px;
+  background-color: #f5c064;
+  color: black;
+  border-radius: 10px;
+}
+main div div.product1 ul li a div{
+  /* border: 1px solid red; */
+}
+main div div.product1 ul li a div img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/*第二種*/
+main div div.product2{
+  /* border: 1px solid blue; */
+  width: 80%;
+  display: inline-block;
+  display: none;
+  /* margin-left: 80px; */
+  text-align: center;
+}
+main div div.product2.-on{
+  display: inline-block;
+}
+main div div.product2 ul {
+  /* border: 1px solid red; */
+  max-width: 100%;
+  padding: 0;
+}
+main div div.product2 ul li{
+  /* border: 5px ridge #bbf2d9; */
+  /* width: 200px; */
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+  display: inline-block;
+  text-align: center;
+  /* background-color: #7dc0f5; */
+  width: 260px;
+}
+main div div.product2 ul li a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #4f7d25;
+  font-weight: bolder;
+}
+main div div.product2 ul li span{
+  font-size: 20px;
+  background-color: #f5c064;
+  color: black;
+  border-radius: 10px;
+}
+main div div.product2 ul li a div{
+
+  width: 100%;
+  height: 100%;
+}
+main div div.product2 ul li a div img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/*第三種*/
+main div div.product3{
+  /* border: 1px solid blue; */
+  width: 80%;
+  display: none;
+  /* display: none; */
+  /* margin-left: 80px; */
+  text-align: center;
+}
+main div div.product3.-on{
+  display: inline-block;
+}
+main div div.product3 ul {
+  /* border: 1px solid red; */
+  max-width: 100%;
+  padding: 0;
+}
+main div div.product3 ul li{
+  /* border: 5px ridge #bbf2d9; */
+  /* width: 200px; */
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+  display: inline-block;
+  text-align: center;
+  /* background-color: #7dc0f5; */
+  width: 260px;
+}
+main div div.product3 ul li a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #4f7d25;
+  font-weight: bolder;
+}
+main div div.product3 ul li span{
+  font-size: 20px;
+  background-color: #f5c064;
+  color: black;
+  border-radius: 10px;
+}
+main div div.product3 ul li a div{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 100%;
+}
+main div div.product3 ul li a div img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/*第四種*/
+main div div.product4{
+  /* border: 1px solid blue; */
+  width: 80%;
+  display: none;
+  /* display: none; */
+  /* margin-left: 80px; */
+  text-align: center;
+}
+main div div.product4.-on{
+  display: inline-block;
+}
+main div div.product4 ul {
+  /* border: 1px solid red; */
+  max-width: 100%;
+  padding: 0;
+}
+main div div.product4 ul li{
+  /* border: 5px ridge #bbf2d9; */
+  /* width: 200px; */
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+  display: inline-block;
+  text-align: center;
+  /* background-color: #7dc0f5; */
+  width: 260px;
+}
+main div div.product4 ul li a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #4f7d25;
+  font-weight: bolder;
+}
+main div div.product4 ul li span{
+  font-size: 20px;
+  background-color: #f5c064;
+  color: black;
+  border-radius: 10px;
+}
+main div div.product4 ul li a div{
+  /* border: 1px solid red; */
+  width: 100%;
+}
+main div div.product4 ul li a div img{
+  max-width: 100%;
+  max-height: 100%;
+}

@@ -1,0 +1,55 @@
+footer div.icon{
+  /* border: 1px solid green; */
+  text-align: center;
+  background-color: #DEF4FE;
+  margin-top: 100px;
+  height: 60px;
+}
+footer div.icon img{
+  /* border: 1px solid red; */
+  max-height: 100%;
+  vertical-align: middle;
+}
+footer div.icon img.fb{
+  margin: 0 50px;
+  height: 70%;
+}
+footer div.icon img.twitter{
+  margin: 0 50px;
+  height: 70%;
+}
+footer div.icon img.ig{
+  margin: 0 50px;
+  height: 70%;
+}
+footer div.icon img.block{
+}
+footer div.lastblock{
+  /* border: 1px solid red; */
+  background-color: #C4C4C4;
+  text-align: center;
+}
+footer div.last{
+  /* border: 1px solid blue; */
+  display: inline-block;
+  margin: 0 auto;
+}
+footer div.last a p{
+  display: inline-block;
+  font-size: 22px;
+  color: white;
+  margin: 0 20px;
+}
+footer div.tibame p,div.tibame p a{
+  /* border: 1px solid black; */
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+footer div.logolast img.logo_img{
+  display: inline-block;
+  width: 108px;
+}
+footer div.tibame p{
+  margin-bottom: 0;
+}

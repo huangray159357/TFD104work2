@@ -1,27 +1,58 @@
 <!DOCTYPE html>
 <html lang="zh-Hant" dir="ltr">
   <head>
+    <title>PenguinBubble</title>
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
-
+    <link rel="stylesheet" href="./css/footerMedia.css">
+    <link rel="stylesheet" href="./css/indexMedia.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   </head>
 
   <body>
-
     <header class="header">
+      <div class="hambugertitle">
+        <div class="titleLOGO">
+          <a href="./index.html"><img src="./image/LOGO.png" id:title></a>
+        </div>
+        <div class="hambugericon">
+          <div class="lineblock">
+            <img src="./image/icon/hamburger.png" alt="">
+          </div>
+        </div>
+      </div>
 
+      <div class="hambuger">
+        <div class="lineblock">
+          <img src="./image/icon/hamburger.png" alt="">
+        </div>
+        <div class="ha_title">
+          <nav class="ha_nav">
+            <ul class="ha_link_list">
+              <li><a href="./aboutus.html" class="aboutus">關於我們</a></li>
+              <li><a href="./drinks.html" class="drinks">各類飲品</a></li>
+              <li><a href="./allnews.html" class="allnews">最新消息</a></li>
+              <li><a href="./location.html" class="location">門市據點 </a></li>
+              <li><a href="./contact.html" class="contact">聯絡我們</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
       <div class="title">
         <div class="titleLOGO">
-          <a href="#"><img src="./image/LOGO.png"></a>
+          <a href="./index.html"><img src="./image/LOGO.png"></a>
         </div>
         <nav class="nav">
           <ul class="link_list">
             <li><a href="./aboutus.html" class="aboutus">關於我們</a></li>
-            <li><a href="./contact.html" class="drinks">各類飲品</a></li>
-            <li><a href="./allnews.html" class="news">最新消息</a></li>
+            <li><a href="./drinks.html" class="drinks">各類飲品</a></li>
+            <li><a href="./allnews.html" class="allnews">最新消息</a></li>
             <li><a href="./location.html" class="location">門市據點 </a></li>
             <li><a href="./contact.html" class="contact">聯絡我們</a></li>
           </ul>
@@ -30,18 +61,92 @@
           <a href="#"><img src="./image/manandcow.png"></a>
         </div>
       </div>
-      
-      <div class="line"></div>
+
     </header>
     <main class="main">
-      <div class="mainpic">
-        <img src="./image/mainpic1.jpg" alt="">
-        <a href="#"><div class="mainpicdot1"></div></a>
-        <a href="#"><div class="mainpicdot2"></div></a>
-        <a href="#"><div class="mainpicdot3"></div></a>
-      </div>
-      <div class="content">
 
+      <div class="owl-carousel mainpic">
+        <div class="pic1"><img src="./image/mainpic1.jpg" alt=""></div>
+        <div class="pic2"><img src="./image/mainpic2.jpg" alt=""></div>
+        <div class="pic3"><img src="./image/mainpic3.jpg" alt=""></div>
+      </div>
+
+
+      <div class="content">
+        <div class="popular" data-aos="fade-up" data-aos-duration="2000">
+          <div class="populartitle">
+            Hot人氣商品!
+          </div>
+          <div class="popularpro1">
+            <div class="pic2" style="order:1;">
+              <img src="./image/hot.png" class="hot" alt="">
+              <img src="./image/juice2.png">
+            </div>
+            <div class="pic1 -on" style="order:5;">
+              <img src="./image/hot.png" class="hot" alt="">
+              <img src="./image/juice1.png">
+            </div>
+            <div class="pic3" style="order:9;">
+              <img src="./image/hot.png" class="hot" alt="">
+              <img src="./image/juice4.png">
+            </div>
+          </div>
+
+          <div class="textall">
+
+            <div class="text2">
+              <p>夏日微光</p>
+              ｛檸檬+迷迭香+氣泡｝
+              <br>
+              迷迭香的特殊香氣是讓這款飲品成為人氣商品的主因之一，外加檸檬片和氣泡飲融入其中，涼涼氣泡飲、檸檬微酸的口感美好的搭配在一起，最適合清涼解膩!
+            </div>
+
+            <div class="text1 -on">
+              <p>滾滾洛塵</p>
+              ｛洛神花+純葡萄柚+氣泡}
+               <br>
+              鮮豔的紅色搭配洛神花的香味，是近期人氣新商品之一，氣泡飲的冰涼和葡萄柚的果香味道相互搭配，喜歡花茶的你一定要來嘗試!
+            </div>
+
+
+            <div class="text3">
+              <p>夏日莫西</p>
+              ｛純手工薑糖+薄荷葉+萊姆+氣泡｝
+              <br>
+              薄荷葉的清涼，與萊姆些微的苦澀作搭配，外加我們純手工特製的薑糖，甜味中和了苦味，略加上了些微的嗆辣感，喜歡嘗新口感的你不容錯過的飲品之一!
+            </div>
+
+          </div>
+
+        </div>
+        <div class="title2">
+          我們理念
+        </div>
+        <div class="pro1" data-aos="fade-up" data-aos-duration="3000">
+          <div class="pro1pic">
+            <img src="./image/pro1.png" >
+          </div>
+          <div class="pro1text">
+            <p class="title">職人製茶</p>
+            <p>我們堅持須具備調茶師等級的員工每天現煮茶湯， 憑藉專業經驗，以不同水溫交替作用，茶葉與水量的精準比例， 使每日限做茶湯擁有絕佳色澤與口感，濃鬱而不失香氣。</p>
+          </div>
+        </div>
+        <div class="pro2" data-aos="fade-up" data-aos-duration="3000">
+          <div class="pro2pic -phone">
+            <img src="./image/pro2.png">
+          </div>
+          <div class="pro2text">
+            <p class="title">嚴選原料</p>
+            <p>為了創造出為奶茶而生的基底紅茶， 我們使用了台灣、斯里蘭卡、印度莊園三種紅茶，，仔細選擇每款紅茶產地， 混調出口感濃鬱的基底茶，襯托出奶茶的滑順風味。</p>
+          </div>
+          <div class="pro2pic">
+            <img src="./image/pro2.png">
+          </div>
+        </div>
+        <div class="lasttext" data-aos="fade-up" data-aos-duration="3000">
+          <p>初心</p>
+          <p>我們堅持每一份配方、讓每一杯飲品都是好喝並獨具深度。為了這份初衷，精湛的功廚設計出口感多元、層次完整的飲料配方，讓客人能嘗到以茶為基底的時尚風味。</p>
+        </div>
       </div>
     </main>
 
@@ -74,5 +179,83 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+      AOS.init();
+      var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items:1,
+            loop:true,
+            autoplay:true,
+            autoplayTimeout:2000,
+            autoplayHoverPause:true
+            // autoHeight:true;
+      });
+
+      $(document).ready(function(){
+        $(".owl-carousel").owlCarousel();
+      });
+
+
+
+        var popularpic = document.querySelectorAll("div.popularpro1 div");
+        // console.log(popularpic);
+        var text_el = document.querySelectorAll("div.textall div");
+        // console.log(text_el);
+        popularpic.forEach((item, i) => {
+          // console.log("test");
+          popularpic[i].addEventListener("click",function(e){
+            // console.log(e.target.closest("div"));
+            let target_pic = e.target.closest("div");
+            // console.log(pic);
+            for(let i=0; i < popularpic.length ; i++){
+              popularpic[i].classList.remove("-on");
+            }
+            target_pic.classList.add("-on");
+            // console.log(popularpic[i].style.order);
+
+
+            popularpic[0].setAttribute("style", `order:1;`);
+            popularpic[1].setAttribute("style", `order:5;`);
+            popularpic[2].setAttribute("style", `order:9;`);
+            let order1 = parseInt(popularpic[0].style.order);
+            // console.log(typeof order1);
+            let order2 = parseInt(popularpic[1].style.order);
+
+            let order3 = parseInt(popularpic[2].style.order);
+            // console.log(order1);
+            // console.log(order2);
+            // console.log(order3);
+            let order_all = order1 + order2 + order3;
+            let order_e = parseInt(e.target.closest("div").style.order);
+            // console.log(order_e);
+            // console.log(order_all);
+            let order = (order_all - order_e)/2;
+            // console.log(order3);
+            // console.log(popularpic[2].style.order);
+            popularpic[i].setAttribute("style", `order:${order};`);
+
+            for(let i=0; i< text_el.length; i++){
+              text_el[i].classList.remove("-on");
+            }
+            text_el[i].classList.add("-on");
+          });
+        });
+
+        var hambuger_btn = document.getElementsByClassName("lineblock");
+        console.log(hambuger_btn);
+        var hambuger_el = document.getElementsByClassName("hambuger")[0];
+        console.log(hambuger_el);
+        for(let i=0; i< hambuger_btn.length; i++){
+          hambuger_btn[i].addEventListener("click", function(){
+            console.log("test");
+            hambuger_el.classList.toggle("-on");
+
+          });
+        };
+
+    </script>
   </body>
 </html>

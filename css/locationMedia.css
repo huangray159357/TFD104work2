@@ -1,0 +1,147 @@
+@media (min-width: 992px) and (max-width: 1199px){
+  main div.owl-carousel.mainpic div.pic1{
+    /* border:1px solid blue; */
+    width: 100%;
+  }
+  main div.owl-carousel.mainpic div.pic2{
+    /* border:1px solid blue; */
+    width: 100%;
+  }
+  main div.owl-carousel.mainpic div.pic3{
+    /* border:1px solid blue; */
+    width: 100%;
+  }
+}
+@media (max-width: 991px){
+  main div.owl-carousel.mainpic div.pic1{
+    /* border:1px solid blue; */
+    width: 100%;
+  }
+  main div.owl-carousel.mainpic div.pic2{
+    /* border:1px solid blue; */
+    width: 100%;
+  }
+  main div.owl-carousel.mainpic div.pic3{
+    /* border:1px solid blue; */
+    width: 100%;
+  }
+}
+
+
+
+@media (min-width: 1400px){
+  main.main div.locate div p{
+    font-size: 30px;
+  }
+  main.main div.locate div p::before{
+    position: absolute;
+    top:-30px;
+    left:15px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399.9px){
+  main.main div.locate div p{
+    font-size: 30px;
+  }
+  main.main div.locate div p::before{
+    position: absolute;
+    top:-30px;
+    left:15px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.9px){
+  main.main div.locatenorthinformation div.locate_in div.north1 div.text{
+    /* border: 1px solid black; */
+    width: 50%
+  }
+  main.main div.locatenorthinformation div.locate_in div.north1 div.north1pic{
+    width: 35%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px){
+  main.main div.locatenorthinformation{
+    width: 90%;
+  }
+  main.main div.locatenorthinformation div.locate_in div.north1 div.text{
+    /* border: 1px solid black; */
+    width: 50%
+  }
+  main.main div.locatenorthinformation div.locate_in div.north1 div.north1pic{
+    width: 35%;
+    margin-top: 30px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px){
+  main.main div.locatenorthinformation{
+    width: 90%;
+  }
+  main.main div.locatenorthinformation div.locate_in div.north1 div.text{
+    /* border: 1px solid black; */
+    width: 50%
+  }
+  main.main div.locatenorthinformation div.locate_in div.north1 div.north1pic{
+    width: 40%;
+    margin-top: 35px;
+  }
+}
+@media (min-width: 320px) and (max-width: 575.9px){
+  main.main div.locatenorthinformation{
+    width: 90%;
+    margin-top: 50px;
+  }
+  main.main div.locatenorthinformation div.locate_in div.north1 div.north1pic{
+    display: block;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    width: 70%;
+  }
+  main.main div.locatenorthinformation div.locate_in div.north1 div.text{
+    display: block;
+    margin: 0 auto;
+    /* border: 1px solid yellow; */
+    width: 80%;
+  }
+  main.main div.locatenorthinformation div.locate_in div.north1 div.text p:first-child{
+    font-size: 20px;
+  }
+  main.main div.locatenorthinformation div.locate_in div.north1 div.text p{
+    font-size: 18px;
+  }
+  main.main div.locate{
+    margin-top :0;
+    position: relative;
+  }
+  main.main div.locate div.door{
+    /* display: none; */
+    position: absolute;
+    left: 15%;
+    top: 55%;
+    transform: translate(0 ,-50%);
+    /* border: 1px solid red; */
+    width: 50px;
+
+  }
+  main.main div.locate div.locatetextall {
+    /* border: 1px solid blue; */
+    margin: 0 auto ;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* grid-template-rows: 40% 40%; */
+  }
+  main.main div.locate div.locatetextall div.locatetext{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  main.main div.locate div p::before{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top:-10px;
+    left:12px;
+  }
+  main.main div.locate div.locatetextall div.locatetext p{
+    font-size: 24px;
+  }
+}

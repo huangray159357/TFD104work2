@@ -1,0 +1,137 @@
+@media (min-width: 1400px){
+
+}
+@media (min-width: 1200px) and (max-width: 1399.9px){
+  main div.drinkpic{
+    width: 450px;
+  }
+  main div.contenttext{
+    width: 400px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.9px){
+  main div.drinkpic{
+    width: 450px;
+  }
+  main div.contenttext{
+    width: 350px;
+    margin-right: 50px;
+  }
+  main div.contentpic{
+    margin-right: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px){
+  main div.drinkpic{
+    width: 350px;
+  }
+  main div.contenttext{
+    width: 280px;;
+    margin-right: 20px;
+  }
+  main div.contentpic{
+    margin-right: 50px;
+  }
+  main div.collapse{
+    width: 700px;;
+  }
+  main div.collapse div.card{
+    width: 100%;
+  }
+}
+@media (min-width: 320px) and (max-width: 767.9px){
+  main div.drinkpic{
+    width: 70%;
+    margin: 0 auto;
+  }
+  main div.contenttext{
+    width: 280px;;
+    margin: 0 auto;
+    width: 80%;
+  }
+  main div.contentpic{
+    margin:0 auto;
+    display: block;
+  }
+  main div.content{
+    width: 80%;
+  }
+
+  main div.contenttext{
+    padding-top: 30px;
+
+  }
+  main div.contenttext div.texttitle{
+    font-size: 23px;
+    margin-top: 0px;
+  }
+  main div.contenttext div.text{
+    margin: 20px;
+  }
+  main div.contenttext div.text p{
+    font-size: 18px;
+    margin-top: 0px;
+  }
+
+  main div.notice{
+    margin-top: 20px;
+  }
+  main div button.btn1{
+    font-size: 16px;
+  }
+  main div button.btn2{
+    font-size: 16px;
+  }
+  main div.collapse div.card ul > li{
+    font-size: 16px;
+  }
+  main div.Kcal table tr:first-child th{
+    font-size: 18px;
+  }
+  main div.Kcal table tr th{
+    font-size: 16px;
+  }
+}
+@media (min-width: 320px) and (max-width: 575.9px){
+  main div.content{
+    width: 80%;
+    margin-top: 50px;
+ }
+ main div.drinkpic{
+   width: 80%;
+   margin: 0 auto;
+ }
+ main div.contenttext{
+   padding-top: 30px;
+ }
+ main div.contenttext div.texttitle{
+   font-size: 20px;
+   margin-top: 0px;
+ }
+ main div.contenttext div.text{
+   margin: 20px;
+ }
+ main div.contenttext div.text p{
+   font-size: 16px;
+   margin-top: 0px;
+ }
+ main div button.btn1{
+   font-size: 16px;
+ }
+ main div button.btn2{
+   font-size: 16px;
+ }
+ main div.collapse div.card ul > li{
+   font-size: 16px;
+ }
+ main div.Kcal table tr:first-child th{
+   font-size: 18px;
+ }
+ main div.Kcal table tr th{
+   font-size: 16px;
+ }
+
+ main div.Kcal{
+   margin-bottom: 50px;
+ }
+}

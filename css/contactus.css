@@ -1,0 +1,131 @@
+header div.title nav ul.link_list li a.contact{
+  color: #ffd800;
+}
+div.hambuger > div.ha_title nav.ha_nav ul.ha_link_list li a.contact{
+  color: #ffd800;
+}
+img{
+  max-width: 100%;
+  max-height:100%;
+}
+
+main.main{
+  /* border: 1px solid red; */
+  /* width: 1200px; */
+  margin: 0 auto;
+}
+main.main div.content{
+  /* border: 1px solid blue; */
+  width: 100%;
+  height:100%;
+}
+main.main div.content div.pic{
+  /* border: 1px solid green; */
+  /* height: 400px; */
+  margin:0 auto;
+  margin-top: 50px;
+}
+main.main div.content div.social{
+  /* border: 1px solid orange; */
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top:100px;
+}
+main.main div.content div.formall{
+  /* border: 1px solid black; */
+  width: 60%;
+  display: inline-block;
+  margin-top:100px;
+  margin-bottom: 50px;
+}
+/*社群連結*/
+main.main div.content div.social div.howcontact{
+  /* border: 1px solid yellow; */
+  width: 100%;
+  height:100%;
+}
+main.main div.content div.social div.howcontact div.contacttitle{
+  /* border: 1px solid blue; */
+  margin: 0 auto;
+}
+main.main div.content div.social div.howcontact div.contacttitle p{
+  font-size: 25px;
+  font-weight: bolder;
+}
+main.main div.content div.social div.howcontact div.address{
+  /* border:1px solid green; */
+  margin-top: 20px;
+}
+main.main div.content div.social div.howcontact div.address p{
+  font-size: 20px;
+  font-weight: bolder;
+}
+main.main div.content div.social div.howcontact div.socialicon{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content:space-around;
+  margin-top: 30px;
+}
+main.main div.content div.social div.howcontact div.socialicon img{
+  cursor: pointer;
+}
+main.main div.content div.social div.howcontact div.socialicon div{
+  /* border: 1px solid black; */
+  margin-top: 10px;
+}
+/*表單*/
+main.main div.content div.formall div.information{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 100%;
+}
+main.main div.content div.formall div.information div.informationtitle{
+  /* border: 1px solid green; */
+}
+main.main div.content div.formall div.information div.informationtitle p{
+  font-size: 25px;
+  font-weight: bolder;
+}
+main.main div.content div.formall div.information div.form{
+  /* border: 1px solid orange; */
+}
+main.main div.content div.formall div.information div.form form.form{
+  /* border: 1px solid red; */
+}
+main.main div.content div.formall div.information div.form form.form div{
+  /* border: 1px solid blue; */
+  text-align: left;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+main.main div.content div.formall div.information div.form form.form div.label{
+  /* border: 1px solid yellow; */
+  display: inline-block;
+  width: 35%;
+}
+main.main div.content div.formall div.information div.form form.form div.label_else{
+  vertical-align: top;
+  /* border: 1px solid yellow; */
+  display: inline-block;
+  width: 35%;
+}
+main.main div.content div.formall div.information div.form form.form div label{
+  font-size: 20px;
+  font-weight: bolder;
+}
+main.main div.content div.formall div.information div.form form.form div input{
+  font-size: 20px;
+  width: 60%;
+}
+main.main div.content div.formall div.information div.form form.form div textarea{
+  font-size: 20px;
+  width: 60%;
+}
+main.main div.content div.formall div.information div.form form.form div button{
+  font-size: 20px;
+  width: 30%;
+  background-color: #8ADFEE;
+  border-radius: 10px;
+  font-weight: bolder;
+}
