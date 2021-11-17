@@ -216,7 +216,7 @@ div.hambuger{
   border: 5px solid lightgrey;
   border-radius: 10px;
   height: 350px;
-  position: absolute;
+  position: fixed;
   top:0;
   left:0;
   transform: translate(-100%);
