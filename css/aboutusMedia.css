@@ -181,3 +181,35 @@
     height: 50px;
   }
 }
+@media (min-width: 320px) and (max-width: 530px){
+  main.main div.content div.part3 div.history ul.history li{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+  }
+  main.main div.content div.part3 div.history ul.history li a{
+    font-size: 12px;
+  }
+}
+@media (min-width: 320px) and (max-width: 400px){
+  main.main div.content div.part3 div.history ul.history li{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+  }
+  main.main div.content div.part3 div.history ul.history li.-on{
+    position: relative;
+    bottom: 25px;
+  }
+  main.main div.content div.part3 div.history ul.history li.-on2{
+    position: relative;
+    bottom: 25px;
+  }
+  main.main div.content div.part3 div.history ul.history li.-on3{
+    position: relative;
+    bottom: 25px;
+  }
+  main.main div.content div.part3 div.history ul.history li a{
+    font-size: 12px;
+  }
+}

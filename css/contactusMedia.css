@@ -203,6 +203,7 @@
   }
   main.main div.content div.formall div.information div.form form.form > div div.label_else{
     /* border: 1px solid blue; */
+    padding: 0;
     display: block;
     width: 100%;
   }
