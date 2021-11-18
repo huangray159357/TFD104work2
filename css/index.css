@@ -58,6 +58,7 @@ img{
 }
 main.main{
   position: relative;
+  margin-top:100px;
 }
 /* 首頁內容 */
 main.main div.content{
