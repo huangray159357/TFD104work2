@@ -72,6 +72,7 @@ main div.productname1{
   padding: 20px 0 20px 20px;
   display: none;
   position: relative;
+  margin-top:100px;
 }
 main div.productname1.-on{
  display: inline-block;
@@ -90,6 +91,7 @@ main div.productname2{
   padding: 20px 0 20px 20px;
   display: none;
   position: relative;
+  margin-top:100px;
 }
 main div.productname2.-on{
  display: inline-block;
@@ -109,6 +111,7 @@ main div.productname3{
   padding: 20px 0 20px 20px;
   display: none;
   position: relative;
+  margin-top:100px;
 }
 main div.productname3.-on{
  display: inline-block;
@@ -131,6 +134,7 @@ main div.productname4{
   padding: 20px 0 20px 20px;
   display: none;
   position: relative;
+  margin-top:100px;
 }
 main div.productname4.-on{
  display: inline-block;
