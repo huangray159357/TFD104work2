@@ -11,6 +11,7 @@ main.main{
   /* width: 1200px; */
   margin: 0 auto;
   text-align: center;
+  margin-top:100px;    
 }
 main.main div.moonnews{
   margin: 0 auto;
